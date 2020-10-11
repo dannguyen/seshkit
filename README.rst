@@ -4,24 +4,20 @@ seshkit
 
 
 
-seshkit is a command-line tool for transcribing audio to text.
+seshkit is a command-line tool for creating transcripts from audio files.
 
 Named after `Seshat, the goddess of scribes <https://en.wikipedia.org/wiki/Seshat>`_
 
 Status (2020-10-10)
-===================
+-------------------
 
 I just created this repo on a lark. No functionality is implemented other than Click skeleton scaffolding. Check back later!
-
-
-* Free software: MIT license
-
-.. Documentation: https://seshkit.readthedocs.io.
 
 
 Features
 --------
 
+- Free software: MIT license
 - manager/wrapper around AWS boto/awscli
 
 

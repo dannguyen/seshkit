@@ -35,7 +35,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="seshkit is a command-line tool for transcribing audio to text",
+    description="seshkit is a command-line tool for creating transcripts from audio files.",
     entry_points={
         'console_scripts': [
             'sesh=seshkit.cli:top',

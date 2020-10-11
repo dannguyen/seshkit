@@ -9,6 +9,12 @@ Left off at:
 
 ### overall stuff
 
+- use awscli to generate samples:
+    - sample job status response
+    - sample transcript with speakers
+    - sample transcript with no speakers
+    - add audio files
+
 - [x] alias seshkit to sesh
 - [ ] ServiceClient
     - `.seshkitrc` MUST be initialized and have existing profiles, and, presumably, valid authorizations for the services    
