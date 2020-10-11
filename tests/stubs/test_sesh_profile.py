@@ -14,13 +14,13 @@ PROFILE_BODY = f"""
 service = aws
 service_creds_path = {CREDSPATH}
 service_profile = default
-output_bucket = my-seshkit-output-bucket
+default_bucket = my-seshkit-bucket
 
 [profiletest]
 service = aws
 service_creds_path = {CREDSPATH}
 service_profile = seshtest
-output_bucket = tester-bucket
+default_bucket = tester-bucket
 """
 
 
@@ -115,3 +115,7 @@ def test_open_creds():
         creds = p.creds
         assert creds["aws_access_key_id"] == "TEST_ID"
         assert creds["aws_secret_access_key"] == "TEST_SECRET"
+
+        safecreds = p.creds_safe
+        assert safecreds["aws_access_key_id"] == "TEST*****ID"
+        assert safecreds["aws_secret_access_key"] == "TEST*****ET"

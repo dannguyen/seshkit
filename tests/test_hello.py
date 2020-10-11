@@ -2,9 +2,9 @@
 
 """Tests for `seshkit` package."""
 
-import pytest
-
 from click.testing import CliRunner
+import pytest
+import re
 
 from seshkit import cli
 
@@ -30,7 +30,13 @@ def test_command_line_interface():
     runner = CliRunner()
     result = runner.invoke(cli.top)
     assert result.exit_code == 0
-    assert "seshkit.cli top" in result.output
+    assert "Usage: sesh" in result.output
+
     help_result = runner.invoke(cli.top, ["--help"])
     assert help_result.exit_code == 0
-    assert "--help  Show this message and exit." in help_result.output
+    assert re.search(r"--help +Show this message and exit", help_result.output)
+
+
+def test_command_version():
+    result = CliRunner().invoke(cli.top, ["--version"])
+    assert re.match(r"\d+\.\d+\.\d+", result.output)

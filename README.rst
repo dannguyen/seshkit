@@ -3,7 +3,6 @@ seshkit
 =======
 
 
-
 seshkit is a command-line tool for creating transcripts from audio files.
 
 Named after `Seshat, the goddess of scribes <https://en.wikipedia.org/wiki/Seshat>`_

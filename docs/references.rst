@@ -5,13 +5,23 @@ References and resources
 Useful links for understanding boto3, awscli, and AWS S3 and Transcribe:
 
 
+S3
+==
+
+API reference
+-------------
+
+- sync: https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html
+
+
+
 
 Transcribe
 ==========
 
 
-AWS API
--------
+API reference
+-------------
 
 - AWS API developer guide: https://docs.aws.amazon.com/transcribe/latest/dg/what-is-transcribe.html
 - API reference: https://docs.aws.amazon.com/transcribe/latest/dg/API_Reference.html
@@ -22,8 +32,8 @@ AWS API
             - https://docs.aws.amazon.com/transcribe/latest/dg/API_TranscriptionJob.html
 
 
-AWS CLI
--------
+CLI reference
+-------------
 
 - AWS CLI reference: https://docs.aws.amazon.com/cli/latest/reference/transcribe/index.html
     - start-transcription-job: https://docs.aws.amazon.com/cli/latest/reference/transcribe/start-transcription-job.html

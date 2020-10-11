@@ -6,21 +6,7 @@ from typing import NoReturn as typeNoReturn
 
 import click
 
-
-DEFAULT_CREDS_PATHS = {"aws": "~/.aws/credentials"}
-
-for k, p in DEFAULT_CREDS_PATHS.items():
-    DEFAULT_CREDS_PATHS[k] = str(Path(p).expanduser().resolve())
-DEFAULT_SESHKIT_CONFIG_PATH = str(Path("~/.seshkitrc").expanduser().resolve())
-
-SERVICES = ("aws",)
-
-"""
-creds_path = ~/sample/.aws/credentials
-profile = seshkituser
-input_bucket = my-seshkit-input-bucket
-output_bucket = my-seshkit-output-bucket
-"""
+from seshkit.settings import *
 
 
 @click.command(name="config")
@@ -83,7 +69,9 @@ def interactive_profile_editor(profile: dict) -> dict:
 
     _dv = prof.get("service", "aws")
     prof["service"] = click.prompt(
-        "Which service?", default=_dv, type=click.Choice(SERVICES, case_sensitive=False)
+        "Which service?",
+        default=_dv,
+        type=click.Choice(AVAILABLE_SERVICES, case_sensitive=False),
     )
 
     _dv = prof.get("service_creds_path", DEFAULT_CREDS_PATHS[prof["service"]])

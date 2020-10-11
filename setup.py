@@ -3,6 +3,7 @@
 """The setup script."""
 
 from setuptools import setup, find_packages
+import seshkit as seshkit_project_vals
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
@@ -22,8 +23,9 @@ setup_requirements = ['pytest-runner', ]
 test_requirements = ['pytest>=3', ]
 
 setup(
-    author="Dan Nguyen",
-    author_email='dansonguyen@gmail.com',
+    version=seshkit_project_vals.__version__,
+    author=seshkit_project_vals.__author__,
+    author_email=seshkit_project_vals.__email__,
     python_requires='>=3.5',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -38,7 +40,7 @@ setup(
     description="seshkit is a command-line tool for creating transcripts from audio files.",
     entry_points={
         'console_scripts': [
-            'sesh=seshkit.cli:top',
+            'sesh=seshkit.cli:main',
         ],
     },
     install_requires=requirements,
@@ -52,6 +54,5 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/dannguyen/seshkit',
-    version='0.0.1',
     zip_safe=False,
 )

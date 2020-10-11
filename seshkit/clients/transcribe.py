@@ -1,4 +1,3 @@
-
 from seshkit.clients.aws import AWSClient
 from pathlib import Path as StdPath
 
@@ -7,9 +6,17 @@ class TranscribeClient(AWSClient):
     """
     https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/transcribe.html
     """
-    aws_service = 'transcribe'
-    MEDIA_FORMATS = ('mp3', 'mp4', 'wav', 'flac', 'ogg', 'amr', 'webm',)
 
+    aws_service = "transcribe"
+    MEDIA_FORMATS = (
+        "mp3",
+        "mp4",
+        "wav",
+        "flac",
+        "ogg",
+        "amr",
+        "webm",
+    )
 
     def start_job(self):
         """

@@ -3,6 +3,8 @@
 Left off at:
 
 - documentation in: docs/examples/transcribe-aws-cli-simple.rst
+- Changed SeshProfile format to have `default_bucket` instead of `output_bucket`
+- `sesh whoami` basic implementation
 
 
 ## 0.1.0
@@ -15,6 +17,20 @@ Left off at:
     - [?] add audio files
     - sample transcript with speakers
 
+
+### Commands
+
+`sesh config`
+- maybe `--config-profile` should be `-c` and not `-p`?
+
+`sesh whoami`
+- needs tests
+- should throw errors:
+    - when profile fails validation (e.g. missing attributes)
+    - when creds file doesn't exist
+    - when authentication fails
+
+### Objects
 
 SeshProfile
 - [x] basic implementation
@@ -30,7 +46,11 @@ SeshProfile
 S3Client
 - [x] basic implementationish
 - [x] accepts SeshProfile
+- list bucket contents
+- list seshkit-project/*
+- 
 - upload_file
+    - should set proper encoding/data type based on extension or --filetype argument
 - head
 - download
 
@@ -123,6 +143,47 @@ Prompts:
 - given a large audio file, split into n pieces and create a folder
 - --split-on-quiet: attempt to split audio on quiet sections
 - split-by-time: split on max length, give or take some seconds
+
+
+
+
+### Structure of a transcribe project
+
+- Given an audio file like: /tmp/path/to/hello-world.mp3
+    - and default bucket: mybucket
+- Create
+    - project folder: s3://mybucket/seshkit-projects/2020_10_10_hello-world 
+        - (or should date slug be appended instead of prepended, for s3 list search wildcard convenience?)
+    - meta.json
+        - name of original file(s)
+        - project folder slug
+        - s3 URI for project folder
+        - configuration parameters
+        - created_at
+        - updated_at
+        - status: in progress/completed/error
+    - source:
+        - ./_source/hello-world.mp3 [original]
+    - audio file: ./job/audio/000.mp3 [may be processed/split/etc]
+    - transcripts: ./job/transcripts/000.json
+    - statuses: ./job/statuses/000.json [check for completed status]
+
+- In progress:
+    - if job/statuses/000.json is `in progress`, check after n-seconds/minutes
+    - if `completed`, get job/transcripts/000.json
+    - job is "done" when every job/audio/file has a corresponding transcript 
+
+- Production/simplify:
+    - check S3 folder for completion status
+    - Download project folder to local drive
+    - Process and compile ./job/transcripts/000.json to produced/transcript.json
+
+Workflow:
+- Create local project folder first, with `_source/` and `seshkit.json`; meta.json points to the remote work bucket
+- s3 sync to remote bucket
+- In remote bucket, create ./job 
+- Polling consists of calling get-transcription-job and doing s3 sync on ./job
+- Create ./produced/transcript.json/csv 
 
 
 

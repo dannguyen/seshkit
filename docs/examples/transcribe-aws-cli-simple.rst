@@ -2,16 +2,16 @@
 Example of AWS transcribe using awscli
 **************************************
 
-CLI API: https://docs.aws.amazon.com/cli/latest/reference/transcribe/start-transcription-job.html
 
-Another example: https://gist.github.com/dannguyen/9b8c51f5bb853209f19f1a0f18f0f74c
+.. contents:: :local:
 
 
 Using awscli
 ============
 
 
-transcribe: Request to start job:
+transcribe: Request to start job
+--------------------------------
 
 .. code-block:: sh
 
@@ -25,7 +25,9 @@ transcribe: Request to start job:
         --output-bucket-name 'test-seshkit-output-bucket'
 
 
-transcribe: Getting job status:
+
+transcribe: Getting job status
+------------------------------
 
 .. code-block:: sh
 
@@ -34,7 +36,8 @@ transcribe: Getting job status:
         --transcription-job-name '2020-10-12-trump-fav-people.mp3'
 
 
-s3: Request for output:
+s3: Request for output
+----------------------
 
 
 .. code-block:: sh
@@ -60,13 +63,13 @@ https://console.aws.amazon.com/transcribe/home#job-details/2020-10-12-trump-fav-
 In progress:
 
 
-.. image:: file/images/transcribe-simple-request-job-details-panel.png
+.. image:: files/images/transcribe-simple-request-job-details-panel.png
 
 
 Completed:
 
 
-.. image:: file/images/transcribe-simple-request-job-completed-panel.png
+.. image:: files/images/transcribe-simple-request-job-completed-panel.png
 
 
 
@@ -79,4 +82,33 @@ S3 Output bucket panel:
 https://s3.console.aws.amazon.com/s3/buckets/test-seshkit-output-bucket?prefix=seshkit-output/
 
 
-.. image:: file/images/transcribe-simple-s3-output-panel.png
+.. image:: files/images/transcribe-simple-s3-output-panel.png
+
+
+Data responses
+==============
+
+
+Job in progress
+---------------
+
+.. literalinclude:: /../examples/aws/transcribe/simple/simple-response-in-progress.json
+
+Job is completed
+----------------
+
+.. literalinclude:: /../examples/aws/transcribe/simple/simple-response-completed.json
+
+
+Transcript
+----------
+
+.. literalinclude:: /../examples/aws/transcribe/simple/simple-transcript.json
+
+
+References
+==========
+
+CLI API: https://docs.aws.amazon.com/cli/latest/reference/transcribe/start-transcription-job.html
+
+Another example: https://gist.github.com/dannguyen/9b8c51f5bb853209f19f1a0f18f0f74c

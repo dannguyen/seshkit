@@ -14,7 +14,7 @@ def sample_config():
 service = aws
 service_creds_path = sample/.aws/credentials
 service_profile = seshkituser
-output_bucket = my-seshkit-output-bucket
+default_bucket = my-seshkit-bucket
 """
 
 

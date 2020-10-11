@@ -1,10 +1,9 @@
-
 from seshkit.clients.aws import AWSClient
 from pathlib import Path as StdPath
 
 
 class S3Client(AWSClient):
-    aws_service = 's3'
+    aws_service = "s3"
 
     def download(self, bucket, key):
         """
@@ -47,4 +46,3 @@ class S3Client(AWSClient):
         )
         # at this point, upload has finished
         return self.head(bucket, key)
-
