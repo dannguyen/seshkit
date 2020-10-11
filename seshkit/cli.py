@@ -11,6 +11,7 @@ def top(args=None):
 
 def main():
     from seshkit.cmds.config import command as cmd_config
+
     top.add_command(cmd_config)
     top()
 

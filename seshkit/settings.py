@@ -1,0 +1,1 @@
+DEFAULT_SESHKIT_PROFILE_PATH = "~/.seshkitrc"

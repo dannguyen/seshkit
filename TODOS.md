@@ -2,7 +2,11 @@
 
 Left off at:
 
-- basic `sesh config` implementation
+- SeshProfile 
+    - basic implementation
+    - basic tests with isolated filesystem
+- S3Client
+    - basic implementationish
 - basic `seshkit.types.path` implementation
 
 ## 0.1.0
@@ -16,12 +20,22 @@ Left off at:
     - add audio files
 
 - [x] alias seshkit to sesh
-- [ ] ServiceClient
-    - `.seshkitrc` MUST be initialized and have existing profiles, and, presumably, valid authorizations for the services    
-        - given a service (e.g. 'aws') and profile name (e.g. 'default'), read `creds_path[service_profile]`
-        - use service-specific library to return interface object
-- [ ] SeshProfile
-    - instantiated from .seshkitrc profile
+
+
+SeshProfile
+- instantiated from .seshkitrc profile
+    - [x] has `profile` key to specify profile in seshconfig
+    - [x] if `profile` is empty, use first profile in seshconfig
+    - [ ] if `profile` is empty, should use `default` profile first
+- reads service_creds_file and parses it
+    - [x] parses credfile based on service, e.g. knows that 'aws' refers to INI format with keys: `aws_access_key_id` and `aws_secret_access_key`
+
+
+S3Client
+- [x] accepts SeshProfile
+- upload_file
+- head
+- download
 
 
 ### types.paths
@@ -125,3 +139,16 @@ Prompts:
 
 - https://gist.github.com/dannguyen/9b8c51f5bb853209f19f1a0f18f0f74c
 - https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html
+
+
+
+## awscli examples
+
+
+```sh
+aws s3 cp --profile seshkit --output json --acl public-read \
+    examples/audio/trump-fav-people.mp3 \
+    s3://test-seshkit-input-bucket/audio/trump-fav-people.mp3
+
+
+```

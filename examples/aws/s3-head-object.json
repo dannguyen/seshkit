@@ -1,0 +1,25 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "QWERT123REQ1D",
+    "HostId": "ABCDefGH/123JKLmn/Zyx9876/Qwerty012/Zx9HostId=",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amz-id-2": "ABCDefGH/123JKLmn/Zyx9876/Qwerty012/Zx9HostId",
+      "x-amz-request-id": "QWERT123REQ1D",
+      "date": "Sun, 11 Oct 2020 01:20:38 GMT",
+      "last-modified": "Sun, 11 Oct 2020 01:20:38 GMT",
+      "etag": "\"123abc8675309c3etag\"",
+      "accept-ranges": "bytes",
+      "content-type": "binary/octet-stream",
+      "content-length": "6",
+      "server": "AmazonS3"
+    },
+    "RetryAttempts": 0
+  },
+  "AcceptRanges": "bytes",
+  "LastModified": "2020-10-11 01:20:38+00:00",
+  "ContentLength": 42,
+  "ETag": "\"123abc8675309c3etag\"",
+  "ContentType": "binary/octet-stream",
+  "Metadata": {}
+}
