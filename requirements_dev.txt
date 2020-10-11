@@ -1,0 +1,12 @@
+pip
+bump2version
+black
+wheel
+watchdog
+tox
+coverage
+Sphinx
+twine
+Click
+pytest
+pytest-runner
