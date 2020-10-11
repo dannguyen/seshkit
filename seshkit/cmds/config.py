@@ -28,7 +28,13 @@ def command(config_path, sesh_profile_name, **kwargs):
     View and/or edit your seshkit configuration profiles and settings
     """
 
+    do_edit_mode: bool
+    sesh_profiles: dict
+
     do_edit_mode = True if sesh_profile_name else False
+
+    # do_edit_mode is determined before we resolve sesh_profile_name
+    # but maybe this could be dried up...
     sesh_profile_name = sesh_profile_name or "default"
 
     config = ConfigParser()
@@ -65,7 +71,7 @@ def command(config_path, sesh_profile_name, **kwargs):
 
 
 def interactive_profile_editor(profile: dict) -> dict:
-    prof = deepcopy(profile)
+    prof: dict = deepcopy(profile)
 
     _dv = prof.get("service", "aws")
     prof["service"] = click.prompt(

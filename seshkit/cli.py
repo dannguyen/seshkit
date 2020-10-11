@@ -27,7 +27,7 @@ def _print_version(ctx=None, param=None, value=None) -> typeNoReturn:
     is_flag=True,
     help="Print seshkit version",
 )
-def top(args=None):
+def top(args=None, **kwargs):
     pass
 
 
