@@ -14,6 +14,12 @@ Status (2020-10-10)
 I just created this repo on a lark. No functionality is implemented other than Click skeleton scaffolding. Check back later!
 
 
+Links
+-----
+
+- Github repo: https://github.com/dannguyen/seshkit
+
+
 Features
 --------
 

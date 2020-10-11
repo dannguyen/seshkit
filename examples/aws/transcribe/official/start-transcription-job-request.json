@@ -1,0 +1,38 @@
+/*
+https://docs.aws.amazon.com/transcribe/latest/dg/API_StartTranscriptionJob.html
+*/
+{
+   "ContentRedaction": {
+      "RedactionOutput": "string",
+      "RedactionType": "string"
+   },
+   "IdentifyLanguage": boolean,
+   "JobExecutionSettings": {
+      "AllowDeferredExecution": boolean,
+      "DataAccessRoleArn": "string"
+   },
+   "LanguageCode": "string",
+   "LanguageOptions": [ "string" ],
+   "Media": {
+      "MediaFileUri": "string"
+   },
+   "MediaFormat": "string",
+   "MediaSampleRateHertz": number,
+   "ModelSettings": {
+      "LanguageModelName": "string"
+   },
+   "OutputBucketName": "string",
+   "OutputEncryptionKMSKeyId": "string",
+   "OutputKey": "string",
+   "Settings": {
+      "ChannelIdentification": boolean,
+      "MaxAlternatives": number,
+      "MaxSpeakerLabels": number,
+      "ShowAlternatives": boolean,
+      "ShowSpeakerLabels": boolean,
+      "VocabularyFilterMethod": "string",
+      "VocabularyFilterName": "string",
+      "VocabularyName": "string"
+   },
+   "TranscriptionJobName": "string"
+}

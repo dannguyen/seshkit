@@ -1,0 +1,111 @@
+{
+  "jobName": "2020-10-12-trump-fav-people.mp3",
+  "accountId": "263510883111",
+  "results": {
+    "transcripts": [
+      {
+        "transcript": "so to my favorite people in the world."
+      }
+    ],
+    "items": [
+      {
+        "start_time": "0.34",
+        "end_time": "1.15",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "so"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.64",
+        "end_time": "1.77",
+        "alternatives": [
+          {
+            "confidence": "0.9833",
+            "content": "to"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.77",
+        "end_time": "1.93",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "my"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.93",
+        "end_time": "2.57",
+        "alternatives": [
+          {
+            "confidence": "0.9912",
+            "content": "favorite"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.58",
+        "end_time": "2.98",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "people"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.98",
+        "end_time": "3.07",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "in"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.07",
+        "end_time": "3.17",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "the"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.17",
+        "end_time": "3.67",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "world"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [
+          {
+            "confidence": "0.0",
+            "content": "."
+          }
+        ],
+        "type": "punctuation"
+      }
+    ]
+  },
+  "status": "COMPLETED"
+}

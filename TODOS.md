@@ -2,27 +2,23 @@
 
 Left off at:
 
-- SeshProfile 
-    - basic implementation
-    - basic tests with isolated filesystem
-- S3Client
-    - basic implementationish
-- basic `seshkit.types.path` implementation
+- documentation in: docs/examples/transcribe-aws-cli-simple.rst
+
 
 ## 0.1.0
 
 ### overall stuff
-
-- use awscli to generate samples:
-    - sample job status response
-    - sample transcript with speakers
-    - sample transcript with no speakers
-    - add audio files
-
 - [x] alias seshkit to sesh
+- use awscli to generate samples:
+    - [x] sample job status response
+    - [x] sample transcript with no speakers
+    - [?] add audio files
+    - sample transcript with speakers
 
 
 SeshProfile
+- [x] basic implementation
+- [x] basic tests with isolated filesystem
 - instantiated from .seshkitrc profile
     - [x] has `profile` key to specify profile in seshconfig
     - [x] if `profile` is empty, use first profile in seshconfig
@@ -32,10 +28,15 @@ SeshProfile
 
 
 S3Client
+- [x] basic implementationish
 - [x] accepts SeshProfile
 - upload_file
 - head
 - download
+
+
+seshkit.types.path
+- [x] basic implementation; not used in library yet...
 
 
 ### types.paths

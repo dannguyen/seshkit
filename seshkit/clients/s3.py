@@ -1,12 +1,10 @@
-import boto3
+
+from seshkit.clients.aws import AWSClient
 from pathlib import Path as StdPath
 
-from seshkit.stubs import SeshProfile
 
-
-class S3Client:
-    def __init__(self, profile: SeshProfile, bucket=None):
-        self._client = boto3.client("s3", **profile.creds)
+class S3Client(AWSClient):
+    aws_service = 's3'
 
     def download(self, bucket, key):
         """
@@ -50,6 +48,3 @@ class S3Client:
         # at this point, upload has finished
         return self.head(bucket, key)
 
-    @property
-    def client(self):
-        return self._client

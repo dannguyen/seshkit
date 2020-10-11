@@ -1,0 +1,19 @@
+{
+    "TranscriptionJob": {
+        "TranscriptionJobName": "2020-10-12-trump-fav-people.mp3",
+        "TranscriptionJobStatus": "IN_PROGRESS",
+        "LanguageCode": "en-US",
+        "MediaSampleRateHertz": 48000,
+        "MediaFormat": "mp3",
+        "Media": {
+            "MediaFileUri": "s3://test-seshkit-input-bucket/seshkit-input/trump-fav-people.mp3"
+        },
+        "Transcript": {},
+        "StartTime": "2020-10-11T14:17:00.781Z",
+        "CreationTime": "2020-10-11T14:17:00.745Z",
+        "Settings": {
+            "ChannelIdentification": false,
+            "ShowAlternatives": false
+        }
+    }
+}

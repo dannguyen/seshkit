@@ -1,0 +1,9 @@
+{
+    "TranscriptionJobName": "2020-10-12-trump-fav-people.mp3",
+    "LanguageCode": "en-US",
+    "MediaSampleRateHertz": 48000,
+    "MediaFormat": "mp3",
+    "Media": {
+        "MediaFileUri": "s3://test-seshkit-input-bucket/seshkit-input/trump-fav-people.mp3"
+    }
+}
