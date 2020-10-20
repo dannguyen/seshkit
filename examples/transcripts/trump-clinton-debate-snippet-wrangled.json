@@ -1,0 +1,248 @@
+[
+  {
+    "transcript": "Excuse me. I will bring back jobs you can't",
+    "speaker": "0",
+    "items": [
+      {
+        "start_time": 0.0,
+        "confidence": 1.0,
+        "end_time": 0.32,
+        "type": "pronunciation",
+        "content": "Excuse",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "start_time": 0.32,
+        "confidence": 1.0,
+        "end_time": 0.59,
+        "type": "pronunciation",
+        "content": "me",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "confidence": 0.0,
+        "type": "punctuation",
+        "content": ".",
+        "segment_number": 0,
+        "speaker": "0",
+        "start_time": null,
+        "end_time": null
+      },
+      {
+        "start_time": 0.61,
+        "confidence": 1.0,
+        "end_time": 1.0,
+        "type": "pronunciation",
+        "content": "I",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "start_time": 1.0,
+        "confidence": 1.0,
+        "end_time": 1.2,
+        "type": "pronunciation",
+        "content": "will",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "start_time": 1.2,
+        "confidence": 1.0,
+        "end_time": 1.46,
+        "type": "pronunciation",
+        "content": "bring",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "start_time": 1.46,
+        "confidence": 1.0,
+        "end_time": 1.7,
+        "type": "pronunciation",
+        "content": "back",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "start_time": 1.7,
+        "confidence": 1.0,
+        "end_time": 2.3,
+        "type": "pronunciation",
+        "content": "jobs",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "start_time": 2.54,
+        "confidence": 1.0,
+        "end_time": 2.75,
+        "type": "pronunciation",
+        "content": "you",
+        "segment_number": 0,
+        "speaker": "0"
+      },
+      {
+        "start_time": 2.75,
+        "confidence": 0.966,
+        "end_time": 3.02,
+        "type": "pronunciation",
+        "content": "can't",
+        "segment_number": 0,
+        "speaker": "0"
+      }
+    ]
+  },
+  {
+    "transcript": "bring back. Well, actually, I have thought about this quite a bit.",
+    "speaker": "1",
+    "items": [
+      {
+        "start_time": 3.02,
+        "confidence": 1.0,
+        "end_time": 3.22,
+        "type": "pronunciation",
+        "content": "bring",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 3.22,
+        "confidence": 1.0,
+        "end_time": 3.47,
+        "type": "pronunciation",
+        "content": "back",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "confidence": 0.0,
+        "type": "punctuation",
+        "content": ".",
+        "segment_number": 1,
+        "speaker": "1",
+        "start_time": null,
+        "end_time": null
+      },
+      {
+        "start_time": 3.48,
+        "confidence": 1.0,
+        "end_time": 3.83,
+        "type": "pronunciation",
+        "content": "Well",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "confidence": 0.0,
+        "type": "punctuation",
+        "content": ",",
+        "segment_number": 1,
+        "speaker": "1",
+        "start_time": null,
+        "end_time": null
+      },
+      {
+        "start_time": 3.84,
+        "confidence": 1.0,
+        "end_time": 4.81,
+        "type": "pronunciation",
+        "content": "actually",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "confidence": 0.0,
+        "type": "punctuation",
+        "content": ",",
+        "segment_number": 1,
+        "speaker": "1",
+        "start_time": null,
+        "end_time": null
+      },
+      {
+        "start_time": 4.85,
+        "confidence": 1.0,
+        "end_time": 5.38,
+        "type": "pronunciation",
+        "content": "I",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 5.39,
+        "confidence": 1.0,
+        "end_time": 5.59,
+        "type": "pronunciation",
+        "content": "have",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 5.59,
+        "confidence": 1.0,
+        "end_time": 5.8,
+        "type": "pronunciation",
+        "content": "thought",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 5.8,
+        "confidence": 1.0,
+        "end_time": 6.06,
+        "type": "pronunciation",
+        "content": "about",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 6.06,
+        "confidence": 1.0,
+        "end_time": 6.26,
+        "type": "pronunciation",
+        "content": "this",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 6.26,
+        "confidence": 1.0,
+        "end_time": 6.51,
+        "type": "pronunciation",
+        "content": "quite",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 6.51,
+        "confidence": 1.0,
+        "end_time": 6.56,
+        "type": "pronunciation",
+        "content": "a",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "start_time": 6.56,
+        "confidence": 1.0,
+        "end_time": 6.96,
+        "type": "pronunciation",
+        "content": "bit",
+        "segment_number": 1,
+        "speaker": "1"
+      },
+      {
+        "confidence": 0.0,
+        "type": "punctuation",
+        "content": ".",
+        "segment_number": 1,
+        "speaker": "1",
+        "start_time": null,
+        "end_time": null
+      }
+    ]
+  }
+]

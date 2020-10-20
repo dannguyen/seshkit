@@ -15,6 +15,7 @@ requirements = [
     'boto3>=1.15',
     'Click>=7.0',
     'colorama',
+    'jinja',
     'requests',
  ]
 

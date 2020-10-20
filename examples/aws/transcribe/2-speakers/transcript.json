@@ -1,0 +1,913 @@
+{
+  "jobName": "trump-clinton-debate-snippet",
+  "accountId": "123456789123",
+  "results": {
+    "transcripts": [
+      {
+        "transcript": "Excuse me. I will bring back jobs you can't bring back. Well, actually, I have thought about this quite a bit."
+      }
+    ],
+    "speaker_labels": {
+      "speakers": 2,
+      "segments": [
+        {
+          "start_time": "0.0",
+          "speaker_label": "spk_0",
+          "end_time": "3.02",
+          "items": [
+            {
+              "start_time": "0.0",
+              "speaker_label": "spk_0",
+              "end_time": "0.32"
+            },
+            {
+              "start_time": "0.32",
+              "speaker_label": "spk_0",
+              "end_time": "0.59"
+            },
+            {
+              "start_time": "0.61",
+              "speaker_label": "spk_0",
+              "end_time": "1.0"
+            },
+            {
+              "start_time": "1.0",
+              "speaker_label": "spk_0",
+              "end_time": "1.2"
+            },
+            {
+              "start_time": "1.2",
+              "speaker_label": "spk_0",
+              "end_time": "1.46"
+            },
+            {
+              "start_time": "1.46",
+              "speaker_label": "spk_0",
+              "end_time": "1.7"
+            },
+            {
+              "start_time": "1.7",
+              "speaker_label": "spk_0",
+              "end_time": "2.3"
+            },
+            {
+              "start_time": "2.54",
+              "speaker_label": "spk_0",
+              "end_time": "2.75"
+            },
+            {
+              "start_time": "2.75",
+              "speaker_label": "spk_0",
+              "end_time": "3.02"
+            }
+          ]
+        },
+        {
+          "start_time": "3.02",
+          "speaker_label": "spk_1",
+          "end_time": "6.96",
+          "items": [
+            {
+              "start_time": "3.02",
+              "speaker_label": "spk_1",
+              "end_time": "3.22"
+            },
+            {
+              "start_time": "3.22",
+              "speaker_label": "spk_1",
+              "end_time": "3.47"
+            },
+            {
+              "start_time": "3.48",
+              "speaker_label": "spk_1",
+              "end_time": "3.83"
+            },
+            {
+              "start_time": "3.84",
+              "speaker_label": "spk_1",
+              "end_time": "4.81"
+            },
+            {
+              "start_time": "4.85",
+              "speaker_label": "spk_1",
+              "end_time": "5.38"
+            },
+            {
+              "start_time": "5.39",
+              "speaker_label": "spk_1",
+              "end_time": "5.59"
+            },
+            {
+              "start_time": "5.59",
+              "speaker_label": "spk_1",
+              "end_time": "5.8"
+            },
+            {
+              "start_time": "5.8",
+              "speaker_label": "spk_1",
+              "end_time": "6.06"
+            },
+            {
+              "start_time": "6.06",
+              "speaker_label": "spk_1",
+              "end_time": "6.26"
+            },
+            {
+              "start_time": "6.26",
+              "speaker_label": "spk_1",
+              "end_time": "6.51"
+            },
+            {
+              "start_time": "6.51",
+              "speaker_label": "spk_1",
+              "end_time": "6.56"
+            },
+            {
+              "start_time": "6.56",
+              "speaker_label": "spk_1",
+              "end_time": "6.96"
+            }
+          ]
+        }
+      ]
+    },
+    "items": [
+      {
+        "start_time": "0.0",
+        "end_time": "0.32",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "Excuse"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.32",
+        "end_time": "0.59",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "me"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [
+          {
+            "confidence": "0.0",
+            "content": "."
+          }
+        ],
+        "type": "punctuation"
+      },
+      {
+        "start_time": "0.61",
+        "end_time": "1.0",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "I"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.0",
+        "end_time": "1.2",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "will"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.2",
+        "end_time": "1.46",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "bring"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.46",
+        "end_time": "1.7",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "back"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.7",
+        "end_time": "2.3",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "jobs"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.54",
+        "end_time": "2.75",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "you"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.75",
+        "end_time": "3.02",
+        "alternatives": [
+          {
+            "confidence": "0.966",
+            "content": "can't"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.02",
+        "end_time": "3.22",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "bring"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.22",
+        "end_time": "3.47",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "back"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [
+          {
+            "confidence": "0.0",
+            "content": "."
+          }
+        ],
+        "type": "punctuation"
+      },
+      {
+        "start_time": "3.48",
+        "end_time": "3.83",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "Well"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [
+          {
+            "confidence": "0.0",
+            "content": ","
+          }
+        ],
+        "type": "punctuation"
+      },
+      {
+        "start_time": "3.84",
+        "end_time": "4.81",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "actually"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [
+          {
+            "confidence": "0.0",
+            "content": ","
+          }
+        ],
+        "type": "punctuation"
+      },
+      {
+        "start_time": "4.85",
+        "end_time": "5.38",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "I"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.39",
+        "end_time": "5.59",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "have"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.59",
+        "end_time": "5.8",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "thought"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.8",
+        "end_time": "6.06",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "about"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "6.06",
+        "end_time": "6.26",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "this"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "6.26",
+        "end_time": "6.51",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "quite"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "6.51",
+        "end_time": "6.56",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "a"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "6.56",
+        "end_time": "6.96",
+        "alternatives": [
+          {
+            "confidence": "1.0",
+            "content": "bit"
+          }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [
+          {
+            "confidence": "0.0",
+            "content": "."
+          }
+        ],
+        "type": "punctuation"
+      }
+    ],
+    "segments": [
+      {
+        "start_time": "0.0",
+        "end_time": "3.02",
+        "alternatives": [
+          {
+            "transcript": "Excuse me. I will bring back jobs you can't",
+            "items": [
+              {
+                "start_time": "0.0",
+                "confidence": "1.0",
+                "end_time": "0.32",
+                "type": "pronunciation",
+                "content": "Excuse"
+              },
+              {
+                "start_time": "0.32",
+                "confidence": "1.0",
+                "end_time": "0.59",
+                "type": "pronunciation",
+                "content": "me"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              },
+              {
+                "start_time": "0.61",
+                "confidence": "1.0",
+                "end_time": "1.0",
+                "type": "pronunciation",
+                "content": "I"
+              },
+              {
+                "start_time": "1.0",
+                "confidence": "1.0",
+                "end_time": "1.2",
+                "type": "pronunciation",
+                "content": "will"
+              },
+              {
+                "start_time": "1.2",
+                "confidence": "1.0",
+                "end_time": "1.46",
+                "type": "pronunciation",
+                "content": "bring"
+              },
+              {
+                "start_time": "1.46",
+                "confidence": "1.0",
+                "end_time": "1.7",
+                "type": "pronunciation",
+                "content": "back"
+              },
+              {
+                "start_time": "1.7",
+                "confidence": "1.0",
+                "end_time": "2.3",
+                "type": "pronunciation",
+                "content": "jobs"
+              },
+              {
+                "start_time": "2.54",
+                "confidence": "1.0",
+                "end_time": "2.75",
+                "type": "pronunciation",
+                "content": "you"
+              },
+              {
+                "start_time": "2.75",
+                "confidence": "0.966",
+                "end_time": "3.02",
+                "type": "pronunciation",
+                "content": "can't"
+              }
+            ]
+          },
+          {
+            "transcript": "Excuse me. I will bring back jobs. You cant",
+            "items": [
+              {
+                "start_time": "0.0",
+                "confidence": "1.0",
+                "end_time": "0.32",
+                "type": "pronunciation",
+                "content": "Excuse"
+              },
+              {
+                "start_time": "0.32",
+                "confidence": "1.0",
+                "end_time": "0.59",
+                "type": "pronunciation",
+                "content": "me"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              },
+              {
+                "start_time": "0.61",
+                "confidence": "1.0",
+                "end_time": "1.0",
+                "type": "pronunciation",
+                "content": "I"
+              },
+              {
+                "start_time": "1.0",
+                "confidence": "1.0",
+                "end_time": "1.2",
+                "type": "pronunciation",
+                "content": "will"
+              },
+              {
+                "start_time": "1.2",
+                "confidence": "1.0",
+                "end_time": "1.46",
+                "type": "pronunciation",
+                "content": "bring"
+              },
+              {
+                "start_time": "1.46",
+                "confidence": "1.0",
+                "end_time": "1.7",
+                "type": "pronunciation",
+                "content": "back"
+              },
+              {
+                "start_time": "1.7",
+                "confidence": "1.0",
+                "end_time": "2.3",
+                "type": "pronunciation",
+                "content": "jobs"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              },
+              {
+                "start_time": "2.54",
+                "confidence": "1.0",
+                "end_time": "2.75",
+                "type": "pronunciation",
+                "content": "You"
+              },
+              {
+                "start_time": "2.75",
+                "confidence": "0.032",
+                "end_time": "3.02",
+                "type": "pronunciation",
+                "content": "cant"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "start_time": "3.02",
+        "end_time": "6.96",
+        "alternatives": [
+          {
+            "transcript": "bring back. Well, actually, I have thought about this quite a bit.",
+            "items": [
+              {
+                "start_time": "3.02",
+                "confidence": "1.0",
+                "end_time": "3.22",
+                "type": "pronunciation",
+                "content": "bring"
+              },
+              {
+                "start_time": "3.22",
+                "confidence": "1.0",
+                "end_time": "3.47",
+                "type": "pronunciation",
+                "content": "back"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              },
+              {
+                "start_time": "3.48",
+                "confidence": "1.0",
+                "end_time": "3.83",
+                "type": "pronunciation",
+                "content": "Well"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": ","
+              },
+              {
+                "start_time": "3.84",
+                "confidence": "1.0",
+                "end_time": "4.81",
+                "type": "pronunciation",
+                "content": "actually"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": ","
+              },
+              {
+                "start_time": "4.85",
+                "confidence": "1.0",
+                "end_time": "5.38",
+                "type": "pronunciation",
+                "content": "I"
+              },
+              {
+                "start_time": "5.39",
+                "confidence": "1.0",
+                "end_time": "5.59",
+                "type": "pronunciation",
+                "content": "have"
+              },
+              {
+                "start_time": "5.59",
+                "confidence": "1.0",
+                "end_time": "5.8",
+                "type": "pronunciation",
+                "content": "thought"
+              },
+              {
+                "start_time": "5.8",
+                "confidence": "1.0",
+                "end_time": "6.06",
+                "type": "pronunciation",
+                "content": "about"
+              },
+              {
+                "start_time": "6.06",
+                "confidence": "1.0",
+                "end_time": "6.26",
+                "type": "pronunciation",
+                "content": "this"
+              },
+              {
+                "start_time": "6.26",
+                "confidence": "1.0",
+                "end_time": "6.51",
+                "type": "pronunciation",
+                "content": "quite"
+              },
+              {
+                "start_time": "6.51",
+                "confidence": "1.0",
+                "end_time": "6.56",
+                "type": "pronunciation",
+                "content": "a"
+              },
+              {
+                "start_time": "6.56",
+                "confidence": "1.0",
+                "end_time": "6.96",
+                "type": "pronunciation",
+                "content": "bit"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              }
+            ]
+          },
+          {
+            "transcript": "bring back. Well, actually, I I have thought about this quite a bit.",
+            "items": [
+              {
+                "start_time": "3.02",
+                "confidence": "1.0",
+                "end_time": "3.22",
+                "type": "pronunciation",
+                "content": "bring"
+              },
+              {
+                "start_time": "3.22",
+                "confidence": "1.0",
+                "end_time": "3.47",
+                "type": "pronunciation",
+                "content": "back"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              },
+              {
+                "start_time": "3.48",
+                "confidence": "1.0",
+                "end_time": "3.83",
+                "type": "pronunciation",
+                "content": "Well"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": ","
+              },
+              {
+                "start_time": "3.84",
+                "confidence": "1.0",
+                "end_time": "4.81",
+                "type": "pronunciation",
+                "content": "actually"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": ","
+              },
+              {
+                "start_time": "4.85",
+                "confidence": "1.0",
+                "end_time": "5.26",
+                "type": "pronunciation",
+                "content": "I"
+              },
+              {
+                "start_time": "5.27",
+                "confidence": "1.0",
+                "end_time": "5.38",
+                "type": "pronunciation",
+                "content": "I"
+              },
+              {
+                "start_time": "5.38",
+                "confidence": "1.0",
+                "end_time": "5.59",
+                "type": "pronunciation",
+                "content": "have"
+              },
+              {
+                "start_time": "5.59",
+                "confidence": "1.0",
+                "end_time": "5.8",
+                "type": "pronunciation",
+                "content": "thought"
+              },
+              {
+                "start_time": "5.8",
+                "confidence": "1.0",
+                "end_time": "6.06",
+                "type": "pronunciation",
+                "content": "about"
+              },
+              {
+                "start_time": "6.06",
+                "confidence": "1.0",
+                "end_time": "6.26",
+                "type": "pronunciation",
+                "content": "this"
+              },
+              {
+                "start_time": "6.26",
+                "confidence": "1.0",
+                "end_time": "6.51",
+                "type": "pronunciation",
+                "content": "quite"
+              },
+              {
+                "start_time": "6.51",
+                "confidence": "1.0",
+                "end_time": "6.56",
+                "type": "pronunciation",
+                "content": "a"
+              },
+              {
+                "start_time": "6.56",
+                "confidence": "1.0",
+                "end_time": "6.96",
+                "type": "pronunciation",
+                "content": "bit"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              }
+            ]
+          },
+          {
+            "transcript": "bring back. Well. Actually, I have thought about this quite a bit.",
+            "items": [
+              {
+                "start_time": "3.02",
+                "confidence": "1.0",
+                "end_time": "3.22",
+                "type": "pronunciation",
+                "content": "bring"
+              },
+              {
+                "start_time": "3.22",
+                "confidence": "1.0",
+                "end_time": "3.47",
+                "type": "pronunciation",
+                "content": "back"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              },
+              {
+                "start_time": "3.48",
+                "confidence": "1.0",
+                "end_time": "3.83",
+                "type": "pronunciation",
+                "content": "Well"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              },
+              {
+                "start_time": "3.84",
+                "confidence": "1.0",
+                "end_time": "4.81",
+                "type": "pronunciation",
+                "content": "Actually"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": ","
+              },
+              {
+                "start_time": "4.85",
+                "confidence": "1.0",
+                "end_time": "5.38",
+                "type": "pronunciation",
+                "content": "I"
+              },
+              {
+                "start_time": "5.39",
+                "confidence": "1.0",
+                "end_time": "5.59",
+                "type": "pronunciation",
+                "content": "have"
+              },
+              {
+                "start_time": "5.59",
+                "confidence": "1.0",
+                "end_time": "5.8",
+                "type": "pronunciation",
+                "content": "thought"
+              },
+              {
+                "start_time": "5.8",
+                "confidence": "1.0",
+                "end_time": "6.06",
+                "type": "pronunciation",
+                "content": "about"
+              },
+              {
+                "start_time": "6.06",
+                "confidence": "1.0",
+                "end_time": "6.26",
+                "type": "pronunciation",
+                "content": "this"
+              },
+              {
+                "start_time": "6.26",
+                "confidence": "1.0",
+                "end_time": "6.51",
+                "type": "pronunciation",
+                "content": "quite"
+              },
+              {
+                "start_time": "6.51",
+                "confidence": "1.0",
+                "end_time": "6.56",
+                "type": "pronunciation",
+                "content": "a"
+              },
+              {
+                "start_time": "6.56",
+                "confidence": "1.0",
+                "end_time": "6.96",
+                "type": "pronunciation",
+                "content": "bit"
+              },
+              {
+                "confidence": "0.0",
+                "type": "punctuation",
+                "content": "."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "status": "COMPLETED"
+}

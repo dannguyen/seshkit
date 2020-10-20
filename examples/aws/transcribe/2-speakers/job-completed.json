@@ -1,0 +1,25 @@
+{
+    "TranscriptionJob": {
+        "TranscriptionJobName": "trump-clinton-debate-snippet",
+        "TranscriptionJobStatus": "COMPLETED",
+        "LanguageCode": "en-US",
+        "MediaSampleRateHertz": 44100,
+        "MediaFormat": "mp3",
+        "Media": {
+            "MediaFileUri": "s3://test-seshkit-input-bucket/seshkit-input/trump-clinton-debate-snippet.mp3"
+        },
+        "Transcript": {
+            "TranscriptFileUri": "https://s3.us-east-1.amazonaws.com/test-seshkit-output-bucket/seshkit-output/trump-clinton-debate-snippet.json"
+        },
+        "StartTime": 1603135180.529,
+        "CreationTime": 1603135180.485,
+        "CompletionTime": 1603135247.803,
+        "Settings": {
+            "ShowSpeakerLabels": true,
+            "MaxSpeakerLabels": 2,
+            "ChannelIdentification": false,
+            "ShowAlternatives": true,
+            "MaxAlternatives": 3
+        }
+    }
+}

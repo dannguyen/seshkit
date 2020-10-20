@@ -1,0 +1,19 @@
+{
+    "TranscriptionJob": {
+        "TranscriptionJobName": "2008-biden-palin-vp-debate",
+        "TranscriptionJobStatus": "IN_PROGRESS",
+        "LanguageCode": "en-US",
+        "MediaFormat": "mp3",
+        "Media": {
+            "MediaFileUri": "s3://test-seshkit-input-bucket/seshkit-input/biden-palin-debate.mp3"
+        },
+        "StartTime": 1603132448.488,
+        "CreationTime": 1603132448.46,
+        "Settings": {
+            "ShowSpeakerLabels": true,
+            "MaxSpeakerLabels": 2,
+            "ShowAlternatives": true,
+            "MaxAlternatives": 3
+        }
+    }
+}

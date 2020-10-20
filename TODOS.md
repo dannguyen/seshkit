@@ -2,9 +2,37 @@
 
 Left off at:
 
+
+- renderer.py, which converts raw transcript.json to HTML
+    - should I even bother using Jinja? For now, seems reasonable to prototype with since I don't want to waste time getting npm and a JS framework set up. JS interface should be its own repo tbh
+    - `simplify()` 
+        - should concatenate segments in which the speaker is the same
+        - have fewer attributes, e.g. not 'segment_number', to save JSON space
+        - get better idea of alternative content items, i.e. in `results['items']`, do any of the items have more than one alternative?
+            - seems to be "No": `[i for i in srcdata['results']['items'] if len(i['alternatives']) > 1 ]`
+            - https://docs.aws.amazon.com/transcribe/latest/dg/how-alternatives.html
+            
+            > Alternatives are presented at the segment level of the transcription. Segments are defined by natural pauses in speech, such as a change in speaker or pause in the audio. For example, the spoken phrase "It is raining today in Seattle, but not in Portland" is separated into two segments: "It is raining today in Seattle" and "but not in Portland."
+    - `to_html()`
+        - add data-attributes, e.g. data-start, to each .item
+        - JS that highlights/colors words by confidence
 - documentation in: docs/examples/transcribe-aws-cli-simple.rst
 - Changed SeshProfile format to have `default_bucket` instead of `output_bucket`
 - `sesh whoami` basic implementation
+
+- ad hoc todos:
+    - gather example data of multispeaker transcript without alternatives enabled
+    - get error responses
+
+
+Ideas:
+
+- project structure should be simple:
+    - `source` folder with raw file, and any ancillary stuff
+    - `job` folder with job.json and transcript.json, and request metadata
+    - transcript.sesh.json – cleaned sesh format
+    - transcript.sesh.csv - flattened format
+    - sesh.html with inline css/js/html for pretty formatting
 
 
 ## 0.1.0

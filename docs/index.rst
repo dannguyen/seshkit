@@ -18,7 +18,7 @@ Examples
    :maxdepth: 1
    :glob:
 
-   examples/*
+   primer/*
 
 
 Other stuff
